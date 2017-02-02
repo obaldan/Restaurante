@@ -1,0 +1,17 @@
+{
+  "name": "Restaurante",
+  "version": "0.1.0",
+  "authors": ["Otavio Baldan (obaldan@hotmail.com)"],
+  "description": "Aplicação teste Restaurante para o curso de Grails",
+  "main": "client/index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

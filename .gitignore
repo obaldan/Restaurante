@@ -1,0 +1,7 @@
+.DS_Store
+node_modules
+bower_components
+public
+temp
+npm-debug.log
+server/config.coffee

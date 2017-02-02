@@ -1,0 +1,41 @@
+{
+  "name": "Restaurante",
+  "version": "0.1.0",
+  "description": "Aplicação teste Restaurante para o curso de Grails",
+  "author": "Otavio Baldan (obaldan@hotmail.com)",
+  "license": "MIT",
+  "main": "client/index.coffee",
+  "scripts": {
+    "start": "forever -c coffee -f -m 3 -w --watch --watchDirectory=\"server\" server/index.coffee",
+    "stop": "",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "browserify": "^14.0.0",
+    "chokidar": "^1.6.1",
+    "coffeeify": "^2.1.0",
+    "deamdify": "^0.2.0",
+    "debowerify": "^1.5.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-bump": "^2.6.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-spawn-mocha": "^3.1.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-util": "^3.0.8",
+    "html2js-browserify": "^1.1.0",
+    "require-globify": "^1.4.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  },
+  "dependencies": {}
+}
